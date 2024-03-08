@@ -1,0 +1,94 @@
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/1207016557847248918/1215525126603276339/1709874151590.jpg?ex=65fd10fd&is=65ea9bfd&hm=be8ee2e19474cc3b9baffab285f39a90bf5abcf603d38bea4c9a3b22743405f5&");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+header img {
+  margin-right: -4px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+.center {
+  margin-left: auto;
+  margin-right: 0px;
+  display: block;
+  margin: 0px;
+  text-align: center;
+}
+body {
+  font-family: 'Arial', sans-serif;
+}
+img.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+h1, h4 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin: 0px;
+  color: white
+}
+p {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  color: white
+}
+h4, p {
+  display: flex;
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+.button {
+  background-color: #000000;
+  border: none;
+  animation: neonAnimation 1.5s ease-in-out infinite alternate;
+  color: #ffffff;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 2px;
+  cursor: pointer;
+  width: 90%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px gray;
+}
+@keyframes neonAnimation {
+  text-shadow: 0 0 10px rgba(0, 0, 255, 0.8), 0 0 20px rgba(0, 0, 255, 0.8), 0 0 30px rgba(0, 0, 255, 0.8);
+}
+footer img {
+  width: 40px;
+  height: 40px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  margin: 20px;
+  text-align: center;
+  color: white
+}
+.desktop-version {
+  screen and (max-width: 600px) {
+    .desktop-version {
+        display: none;
+}
+.mobile-version {
+  background-color: black
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  color: red;
+}
