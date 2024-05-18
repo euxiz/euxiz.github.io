@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://cdn.discordapp.com/attachments/1207016557847248918/1218197671471349881/259add8368cb217ab16fb68ddd1ec75a.gif?ex=6606c9fd&is=65f454fd&hm=d19d811f8a10f004b4aa430f1733df821ca8c2d10646867400614519fcc641ee&");
+  background-image: url("https://media.discordapp.net/attachments/1241362916188618785/1241374910664671322/b4739ae2288f18e1967ebe75f145d88e.jpg?ex=6649f7fa&is=6648a67a&hm=cb29ee9bfda9be26183d52e8f8a529aa340996b66a1c7351b36782db0691fed9&");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,7 +58,7 @@ h4, p {
   display: inline-block;
   font-size: 17px;
   font-weight: bold;
-  margin: 10px 2px;
+  margin: 4px 2px;
   cursor: pointer;
   width: 90%;
   border-radius: 30px;
@@ -91,4 +91,4 @@ footer a {
   text-align: center;
   font-size: 16px;
   color: red;
-}
+  }
