@@ -79,7 +79,19 @@
   <div class="center">
     <button class= "button" onclick="window.location.href='https://open.spotify.com/playlist/3kqZojyIXXW9QIg3Kxp0iz?si=oLmgCw5JQva5KNFGt55_HQ'">Playlist</button>
   </div>
-  <iframe src="https://open.spotify.com/embed/track/2hIrHUgeI2cKYwM18MkGPK?si=T23TVzlxR-OgxIfy8tmApw" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media">
-  </iframe>
+  <style>
+    .iframe-container {
+      text-align: center;
+      margin-top: 8px;
+    }
+    iframe {
+      margin: 0 auto;
+      display: block;
+    }
+    </style>
+  <div class="iframe-container">
+    <iframe src="https://open.spotify.com/embed/track/2hIrHUgeI2cKYwM18MkGPK?si=T23TVzlxR-OgxIfy8tmApw" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+  </div>
 </body>
 </html>
