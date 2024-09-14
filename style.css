@@ -1,94 +1,63 @@
 body {
-  background-image: url("https://media.discordapp.net/attachments/1241362916188618785/1241417246073688144/528a0962c8ca70bb353480072ce43cb3.jpg?ex=664b70e7&is=664a1f67&hm=d9c1c2963f8131a2b0cf291af5062fa0e581b6e2eba0b1a22441d7d8b40a5ff8&");
-  background-size: cover;
+  background-image: url("https://cdn.discordapp.com/attachments/1172410684961718322/1284580196871176313/IMG_3290.jpg?ex=66e72609&is=66e5d489&hm=0f687ea11faec1e01f46ccdc0efe2881dac82a9c04e0a52fafe24cf9fdeff3f9&");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
-header img {
-  margin-right: -4px;
-  width: 150px;
-  height: 150px;
-  border-radius: 10%;
-}
-.center {
-  margin-left: auto;
-  margin-right: 0px;
-  display: block;
-  margin: 0px;
-  text-align: center;
-}
-body {
-  font-family: 'Arial', sans-serif;
-}
-img.icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
-h1, h4 {
+
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  border: 2px solid #ebebeb;
   display: flex;
-  text-align: center;
   justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin: 0px;
-  color: white
+  margin: auto;
+  margin-top: 117px;
 }
+
 p {
-  margin-left: 20px;
+  color: #adadad;
+  font-family: Arial;
+  font-size: 13px;
   display: flex;
   justify-content: center;
-  color: white
+  margin: auto;
+  margin-top: 12px;
 }
-h4, p {
-  display: flex;
-  text-align: center;
+
+h1 {
   color: white;
-  margin: 0px;
-}
-.button {
-  background-color: #000000;
-  border: none;
-  animation: neonAnimation 1.5s ease-in-out infinite alternate;
-  color: #ffffff;
-  padding: 18px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 17px;
-  font-weight: bold;
-  margin: 4px 2px;
-  cursor: pointer;
-  width: 90%;
-  border-radius: 30px;
-  box-shadow: 0px 0px 10px 0px gray;
-}
-@keyframes neonAnimation {
-  text-shadow: 0 0 10px rgba(0, 0, 255, 0.8), 0 0 20px rgba(0, 0, 255, 0.8), 0 0 30px rgba(0, 0, 255, 0.8);
-}
-footer img {
-  width: 40px;
-  height: 40px;
-}
-footer {
+  font-family: Arial;
+  font-size: 25px;
   display: flex;
   justify-content: center;
+  margin: auto;
+  margin-top: 12px;
 }
-footer a {
-  margin: 20px;
-  text-align: center;
-  color: white
+
+button {
+  width: 195px;
+  height: 37px;
+  font-size: 15px;
+  background: black;
+  border-radius: 20px;
+  display: block;
+  justify-content: center;
+  margin: auto;
+  margin-top: 14px;
 }
-.desktop-version {
-  screen and (max-width: 600px) {
-    .desktop-version {
-        display: none;
+
+a {
+  color: white;
+  text-decoration: none;
 }
-.mobile-version {
-  background-color: black
-  padding: 15px;
-  text-align: center;
-  font-size: 16px;
-  color: red;
-  }
+
+iframe {
+  margin-top: 12px;
+  frame-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 13px;
+}
